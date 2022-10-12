@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1">
+  <title>My favorite Recipes</title>
+  <link rel="stylesheet" href="recipe.css" type="text/css">
+  <link rel="stylesheet" href="bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="recipe.js"></script>
+</head>
+  
+<body>
+<div class="container">
+ <header>
+  <h1 id ="mainTitle">My favourite Recipes</h1>
+</header>
+    
+      <div class="clock">
+            <span id="hr">00</span>
+            <span> : </span>
+            <span id="min">00</span>
+            <span> : </span>
+            <span id="sec">00</span>
+        </div>
+        
+        <div class="btn-group btn-group-justified">
+         <a href ="#egusi" class="btn btn-primary" >Egusi Soup</a>
+     <a href ="#pancake" class="btn btn-primary" >Pancake</a>
+     <a href ="#eggsauce" class="btn btn-primary">Egg sauce</a>
+     </div>
+       
+   <article id ="egusi">   
+  <a name="egusi"><h2>Egusi soup</h2></a>
+
+    <img src ="images/egusiandeba.jpg" alt ="Nicely made Egusi soup and Eba" title ="Mouth-savoury egusi soup served with nicely made eba">
+  
+   <button onclick ="egusiIngredients();">Click to view the Ingrdients</button>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Ingredients</th>
+</tr>
+</thead>
+<tbody id ="theIngredients">
+</tbody>
+</table>
+
+  
+    <p>Egusi soup, also known as melon seed soup, is a healthy and easy dinner recipe that is sure to make your mouth water. Made with a variety of vegetables, this meal is enriched with nature's earthly goodness and will definitely leave you licking your fingers.</p>
+
+    <h3>Preparation method</h3>
+      <ol>
+        <li class ="method">Cut the meat or fish and season. Add water and boil until tender. Set aside.</li>
+        <li class ="method">Mix the Egusi in water. Set aside. Blend the tomatoes, the second onion and the chili. Set aside</li>
+        <li class ="method">Heat the palm oil in a pot and add the egusi mixture. Stir well and allow it to fry for a moment. Add the blend and stir well. Then add the ground crayfish, seasoning and stock fish.</li>
+        <li class ="method">Add water and allow to cook for some minutes. Add boil the meat and stir. Turn the heat down and simmer for a further two minutes.</li>
+        <li class ="method">Wash and finely slice the ugwu leaves. Add to the simmering soup and stir. Continue to simmer for some minutes to allow the vegetables to soften. </li>
+        <li class ="method">Serve with cassava fufu or garri.
+      </ol>   
+  </article>
+
+   
+   <article id ="pancake">   
+  <a name="pancake"><h2>Pancake</h2></a>
+
+  <img src ="images/pancake.jpg" alt ="Pancakes" title ="savoury pancakes">
+
+<h3>Ingredients</h3>
+  <table class=" table table-bordered">
+ <tr>
+<td class ="ingredient">Plain flour</td>
+<td class ="amount">150 naira</td>
+</tr table table-striped
+<tr>
+<td class ="ingredient">Milk</td>
+<td class ="amount">200 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Eggs</td>
+<td class ="amount">120 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Vegetable oil</td>
+<td class ="amount">200 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Sugar</td>
+<td class ="amount">100 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">A pinch of salt</td>
+<td class ="amount"></td>
+</tr>
+  </table>
+
+
+    <p>Pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.</p> 
+
+    <h3>Preparation method</h3>
+      <ol>
+        <li class ="method">put the flour into a large bowl, make a well in the centre and pour in the milk and eggs. Give the liguid mixture a quick whisk before incorporating the flour. Add the sugar and a pinch of saltContinue to whisk until you have a smooth batter</li>
+        <li class ="method">Add vegetable oil and whisk thoroughly.</li>
+        <li>Take a frying pan, dip some kitchen roll in the pan an carefully wipe the inside of the pan. Heat the pan inside a medium heat for one minute.</li>
+        <li class ="method">Add just under a ladleful of batter to the pa and immediately start swirling it round the pan to get a nice even layer.</li>
+        <li class ="method">cook the pancake for 30-40 seconds. Use a palette knife to lift the pancake carefully to look at the underside to check it is golden-brown before turning over. Cook the other side for pproximately 30-40 seconds and transfer to a serving plate.</li>
+        </ol>   
+</article>
+
+
+<article id ="eggsauce">
+  <a name="eggsauce"><h2>Egg sauce</h2></a>
+
+    <img src ="images/yamandeggsauce.png" alt ="Nicely made Yam and egg sauce" title ="Yam and egg sauce ready to be enjoyed">
+
+    <h3>Ingredients</h3>
+      <table class="table table-bordered">
+<tr>
+<td class ="ingredient">Fresh tomatoes</td>
+<td class ="amount">200 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Pepper</td>
+<td class ="amount">50 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">4 eggs</td>
+<td class ="amount">160 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Vegetable oil</td>
+<td class ="amount">200 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Onions</td>
+<td class ="amount">50 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Seasoning</td>
+<td class ="amount">100 naira</td>
+</tr>
+<tr>
+<td class ="ingredient">Salt to taste</td>
+<td class ="amount"></td>
+</tr>
+</table>
+    <p>Egg sauce is a very simple sauce made with eggs and tomatoes, mostly refferd to as tomato egg sauce.</p>
+  
+    <h3>Preparation method</h3>
+      <ol>
+        <li class ="method">Slice tomatoes pepper and onions.</li>
+        <li class ="method">Set your frying pan on heat and add vegetable oil, allow one minute before adding the sliced tomatoes, pepper and onions.</li>
+        <li class ="method">Allow to fry for some minutes and stir always.</li>
+        <li class ="method">Once it is adequately fried, add salt to taste. Add seasoning.</li>
+        <li class ="method">Leave for a while and turn off the heat.</li>
+      </ol>   
+ 
+  <footer>
+    <p>Developed by: Grania</p>
+  </footer>
+  <div class="progress">
+   <div class="progress-bar" role = "progressbar" aria-valuemin ="0" aria-valuemax ="100">
+     
+   </div> 
+  </div>
+</div>
+</body>
+</html>
